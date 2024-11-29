@@ -6,7 +6,7 @@ export default function UserProfileCard({title,name,email,imgurl,number,course})
       <h1>{title}</h1>
       <img src={imgurl} alt='userprofile' width="250px" height="auto" style={{borderRadius:'20px',boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}}/>
       <h2>Name:- {name}</h2>
-      <p><b>Email hgjhygkjygl:-</b> {email}</p>
+      <p><b>Email:-</b> {email}</p>
       <p><b>Mo number</b> :-{number}</p>
       <p><b>course:-</b>{course}</p>
     </div>
